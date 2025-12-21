@@ -1,0 +1,86 @@
+/* Hide Google's top bar */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important;
+}
+
+/* Style the widget */
+#google_translate_element {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    z-index: 2000;
+}
+
+.goog-te-gadget {
+    font-family: inherit !important;
+    font-size: 14px !important;
+    color: var(--text-secondary) !important;
+}
+
+/* Updated styling for contrast */
+.goog-te-gadget-simple {
+    background-color: var(--color-primary) !important;
+    /* Contrasting global color */
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+    transition: all 0.3s ease;
+    cursor: pointer !important;
+}
+
+.goog-te-gadget-simple:hover {
+    background-color: var(--color-primary-hover) !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value {
+    color: #fff !important;
+    font-weight: 600 !important;
+    /* Make text bolder */
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+    color: #fff !important;
+    text-decoration: none !important;
+    border-right: none !important;
+}
+
+.goog-te-gadget-icon {
+    display: none !important;
+}
+
+/* Force dropdown visibility */
+.goog-te-menu-frame {
+    z-index: 1000000 !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5) !important;
+}
+
+.goog-te-menu2 {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.goog-te-menu2-item div,
+.goog-te-menu2-item-selected div {
+    color: var(--text-primary) !important;
+    background-color: var(--bg-secondary) !important;
+}
+
+.goog-te-menu2-item:hover div {
+    background-color: var(--bg-tertiary) !important;
+    color: #fff !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    #google_translate_element {
+        margin-left: 0;
+        margin-top: 1rem;
+        display: block !important;
+        /* Force visible */
+        text-align: center;
+    }
+}

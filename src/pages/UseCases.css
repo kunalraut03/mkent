@@ -1,0 +1,151 @@
+.use-cases-page {
+    min-height: 100vh;
+}
+
+.page-header {
+    background: linear-gradient(135deg, rgba(22, 163, 74, 0.1), rgba(15, 23, 42, 0.8));
+    padding: 8rem 0 4rem;
+    /* Increased top padding to clear nav */
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+}
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.use-cases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.use-case-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.use-case-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: var(--color-primary);
+}
+
+.card-icon {
+    background: rgba(255, 255, 255, 0.05);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uc-icon {
+    stroke-width: 1.5px;
+}
+
+.text-green {
+    color: #16a34a;
+}
+
+.text-orange {
+    color: #f59e0b;
+}
+
+.text-blue {
+    color: #3b82f6;
+}
+
+.text-red {
+    color: #ef4444;
+}
+
+.card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.partner-tag {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--color-secondary);
+    background: rgba(14, 165, 233, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    margin-bottom: 0.75rem;
+    align-self: flex-start;
+    font-weight: 500;
+}
+
+.card-content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+    /* Pushes button down if needed, but margin-top: auto on link is better */
+}
+
+.learn-more-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: gap 0.3s ease;
+    margin-top: auto;
+    /* Aligns button to bottom */
+    padding-top: 1rem;
+}
+
+.learn-more-link:hover {
+    gap: 0.8rem;
+}
+
+.cta-section {
+    padding: 5rem 0;
+    background: linear-gradient(180deg, transparent 0%, rgba(22, 163, 74, 0.1) 100%);
+    margin-top: 3rem;
+}
+
+.cta-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-secondary);
+}

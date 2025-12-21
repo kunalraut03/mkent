@@ -1,0 +1,48 @@
+.language-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.language-selector:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: var(--color-primary);
+}
+
+.lang-icon {
+    color: var(--color-primary);
+}
+
+.lang-select {
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    /* Remove default arrow */
+    font-weight: 500;
+}
+
+.lang-select option {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 10px;
+}
+
+/* Mobile adjustments handled by parent container styles usually, 
+   but ensuring it looks good in small spaces */
+@media (max-width: 768px) {
+    .language-selector {
+        width: 100%;
+        justify-content: center;
+        background: var(--bg-tertiary);
+    }
+}

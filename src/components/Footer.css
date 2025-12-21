@@ -1,0 +1,104 @@
+.footer {
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    padding: 4rem 0 0 0;
+    border-top: 1px solid var(--bg-tertiary);
+    margin-top: auto;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-section h3 {
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer-section p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.links a:hover {
+    color: var(--color-primary);
+    padding-left: 5px;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contact li {
+    display: flex;
+    align-items: flex-start;
+    /* Better for multi-line address */
+    gap: 1rem;
+}
+
+.contact .icon {
+    color: var(--color-primary);
+    flex-shrink: 0;
+    margin-top: 4px;
+    /* visually align with first line of text */
+}
+
+.contact p {
+    margin-bottom: 0;
+    /* Remove default padding for cleaner look */
+    line-height: 1.5;
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--bg-tertiary);
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
