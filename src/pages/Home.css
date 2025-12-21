@@ -214,14 +214,12 @@
 .partner-logo-text {
     font-size: 1.8rem;
     font-weight: 800;
-
     /* Constant Flowing Gradient */
     background: linear-gradient(90deg, #22c55e, #3b82f6, #22c55e);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
     animation: gradientShift 3s linear infinite;
     transition: all 0.3s ease;
 }
