@@ -64,7 +64,6 @@ function setup() {
         sheet = doc.insertSheet(SHEET_NAME);
     }
 
-    // Updated headers with Source and Category
     var headers = ["Date", "Source", "Name", "Category", "Phone", "City", "Area", "Crops", "Interested Products", "Requirement"];
     sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
 }
