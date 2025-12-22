@@ -101,7 +101,7 @@ const resources = {
                 "name": "Name",
                 "namePlaceholder": "Your Name",
                 "phone": "Phone Number (10 Digits)",
-                "phonePlaceholder": "7972955294",
+                "phonePlaceholder": "9876543210",
                 "city": "City/Place",
                 "cityPlaceholder": "Start typing to search...",
                 "iam": "I am a:",
