@@ -73,7 +73,7 @@ const Contact = () => {
                                 <Phone className="icon" />
                                 <div>
                                     <h3>{t('footer.callUs')}</h3>
-                                    <p><a href="tel:+917972955294">+91 98765 43210</a></p>
+                                    <p><a href="tel:+917972955294">+91 7972955294</a></p>
                                 </div>
                             </div>
 
