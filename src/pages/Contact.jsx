@@ -37,7 +37,7 @@ const Contact = () => {
                         <Phone className="icon-lg text-green" />
                         <h3>{t('contact.whatsapp')}</h3>
                         <p>{t('contact.response')}</p>
-                        <a href="https://wa.me/919421832049" target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+                        <a href="https://wa.me/917972955294" target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
                             Chat Now
                         </a>
                     </div>
