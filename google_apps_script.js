@@ -37,7 +37,7 @@ function doPost(e) {
             MailApp.sendEmail(emailRecipient, subject, body);
         } catch (emailError) {
             console.log("Failed to send email: " + emailError);
-            // We don't fail the request if email fails, but we log it
+            // We don't fail the request if email fails,
         }
 
         return ContentService
