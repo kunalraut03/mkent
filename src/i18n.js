@@ -16,7 +16,15 @@ const resources = {
                 "solutions": "Solutions",
                 "trustedPartner": "Your trusted partner for Agriplast, Fasal, and Map My Crop. Delivering sustainable solutions for modern farming.",
                 "getStarted": "Get Started",
-                "ourPartners": "Our Partners"
+                "ourPartners": "Our Partners",
+                "words": {
+                    "innovative": "Innovative",
+                    "intelligent": "Intelligent",
+                    "sustainable": "Sustainable",
+                    "resilient": "Resilient",
+                    "adaptive": "Adaptive",
+                    "efficient": "Efficient"
+                }
             },
             "footer": {
                 "reliableStockist": "Reliable stockist for Agriplast, Fasal, and Map My Crop. Delivering premium agricultural solutions to empower farmers and businesses.",
@@ -237,7 +245,15 @@ const resources = {
                 "solutions": "उपाययोजनांसह",
                 "trustedPartner": "ऍग्रीप्लास्ट, फसल आणि मॅप माय क्रॉपसाठी तुमचा विश्वासार्ह भागीदार. आधुनिक शेतीसाठी शाश्वत उपाय वितरीत करणे.",
                 "getStarted": "सुरुवात करा",
-                "ourPartners": "आमचे भागीदार"
+                "ourPartners": "आमचे भागीदार",
+                "words": {
+                    "innovative": "अभिनव",
+                    "intelligent": "हुशार",
+                    "sustainable": "शाश्वत",
+                    "resilient": "लवचिक",
+                    "adaptive": "अनुकूल",
+                    "efficient": "कार्यक्षम"
+                }
             },
             "footer": {
                 "reliableStockist": "ऍग्रीप्लास्ट, फसल आणि मॅप माय क्रॉपचे विश्वसनीय वितरक. शेतकरी आणि व्यवसायांना सक्षम करण्यासाठी प्रीमियम कृषी उपाय वितरीत करणे.",
@@ -458,7 +474,15 @@ const resources = {
                 "solutions": "समाधानों के साथ",
                 "trustedPartner": "एग्रीप्लास्ट, फसल और मैप माई क्रॉप के लिए आपका विश्वसनीय भागीदार। आधुनिक खेती के लिए स्थायी समाधान प्रदान करना।",
                 "getStarted": "शुरू करें",
-                "ourPartners": "हमारे भागीदार"
+                "ourPartners": "हमारे भागीदार",
+                "words": {
+                    "innovative": "अभिनव",
+                    "intelligent": "बुद्धिमान",
+                    "sustainable": "टिकाऊ",
+                    "resilient": "लचीला",
+                    "adaptive": "अनुकूल",
+                    "efficient": "कुशल"
+                }
             },
             "footer": {
                 "reliableStockist": "एग्रीप्लास्ट, फसल और मैप माई क्रॉप के विश्वसनीय स्टॉकिस्ट। किसानों और व्यवसायों को सशक्त बनाने के लिए प्रीमियम कृषि समाधान प्रदान करना।",

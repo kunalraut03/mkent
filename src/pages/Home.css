@@ -2,6 +2,13 @@
     padding: 5rem 0;
 }
 
+@media (max-width: 768px) {
+    .section {
+        padding: 3rem 0;
+        /* Reduced padding for mobile */
+    }
+}
+
 @media (min-width: 769px) {
     .home-page {
         /* Pull content up to be behind global header padding on desktop only */

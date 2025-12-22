@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 import './Hero.css';
 
 const words = [
-    { text: "Innovative", color: "linear-gradient(90deg, #14b8a6, #2dd4bf)" },
-    { text: "Intelligent", color: "linear-gradient(90deg, #3b82f6, #60a5fa)" },
-    { text: "Sustainable", color: "linear-gradient(90deg, #22c55e, #4ade80)" },
-    { text: "Resilient", color: "linear-gradient(90deg, #f97316, #fbbf24)" },
-    { text: "Precision-Driven", color: "linear-gradient(90deg, #8b5cf6, #a78bfa)" },
-    { text: "Future-Ready", color: "linear-gradient(90deg, #ec4899, #f472b6)" }
+    { key: "hero.words.innovative", color: "linear-gradient(90deg, #14b8a6, #2dd4bf)" },
+    { key: "hero.words.intelligent", color: "linear-gradient(90deg, #3b82f6, #60a5fa)" },
+    { key: "hero.words.sustainable", color: "linear-gradient(90deg, #22c55e, #4ade80)" },
+    { key: "hero.words.resilient", color: "linear-gradient(90deg, #f97316, #fbbf24)" },
+    { key: "hero.words.adaptive", color: "linear-gradient(90deg, #8b5cf6, #a78bfa)" },
+    { key: "hero.words.efficient", color: "linear-gradient(90deg, #ec4899, #f472b6)" }
 ];
 
 const Hero = () => {
@@ -52,7 +52,7 @@ const Hero = () => {
                                         display: 'inline-block'
                                     }}
                                 >
-                                    {words[index].text}
+                                    {t(words[index].key)}
                                 </motion.span>
                             </AnimatePresence>
                         </span>

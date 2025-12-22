@@ -127,14 +127,12 @@
 @media (max-width: 768px) {
     .hero {
         height: auto;
-        /* Allow growth */
-        min-height: 90vh;
-        /* Ensure full screen feel */
-        overflow: visible;
-        /* Prevent clipping */
-        padding-top: calc(var(--nav-height) + 2rem);
-        padding-bottom: 4rem;
-        /* Add space at bottom */
+        min-height: 80vh;
+        /* Slightly reduced */
+        overflow: hidden;
+        /* Changed back to hidden to prevent horizontal scroll */
+        padding-top: calc(var(--nav-height) + 1rem);
+        padding-bottom: 2rem;
     }
 
     .hero h1 {
