@@ -28,7 +28,7 @@ const UseCases = () => {
         { icon: <CloudSun size={40} className="uc-icon text-blue" />, link: "/fasal#enquiry" }, // Smart Irrigation
         { icon: <Leaf size={40} className="uc-icon text-green" />, link: "/agriplast#enquiry" }, // Protected Cultivation
         { icon: <Activity size={40} className="uc-icon text-orange" />, link: "/map-my-crop#enquiry" }, // Crop Health
-        { icon: <Sun size={40} className="uc-icon text-red" />, link: "/agriplast#enquiry" }, // Climate Resilient
+        { icon: <Sun size={40} className="uc-icon text-red" />, link: "/fasal#enquiry" }, // Climate Resilient
         { icon: <Sprout size={40} className="uc-icon text-green" />, link: "/fasal#enquiry" } // Advisory
     ];
 
