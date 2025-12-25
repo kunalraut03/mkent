@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { ArrowRight, Leaf, CloudSun, Maximize, Bug, Droplets, Thermometer, Activity, QrCode, Plane, Sun, Sprout } from 'lucide-react';
+import { ArrowRight, Leaf, CloudSun, Maximize, Bug, Droplets, Thermometer, Activity, Sun } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import './UseCases.css';
 
@@ -19,18 +19,47 @@ const UseCases = () => {
         }
     }, [hash]);
 
-    // Configuration for icons and links matching the 9 use cases
-    const useCaseConfig = [
-        { icon: <Droplets size={40} className="uc-icon text-blue" />, link: "/agriplast#enquiry" }, // Mulching-Led
-        { icon: <Thermometer size={40} className="uc-icon text-orange" />, link: "/agriplast#enquiry" }, // Nursery
-        { icon: <Maximize size={40} className="uc-icon text-green" />, link: "/map-my-crop#enquiry" }, // Satellite
-        { icon: <Bug size={40} className="uc-icon text-red" />, link: "/fasal#enquiry" }, // Pest
-        { icon: <CloudSun size={40} className="uc-icon text-blue" />, link: "/fasal#enquiry" }, // Smart Irrigation
-        { icon: <Leaf size={40} className="uc-icon text-green" />, link: "/agriplast#enquiry" }, // Protected Cultivation
-        { icon: <Activity size={40} className="uc-icon text-orange" />, link: "/map-my-crop#enquiry" }, // Crop Health
-        { icon: <Sun size={40} className="uc-icon text-red" />, link: "/fasal#enquiry" }, // Climate Resilient
-        { icon: <Sprout size={40} className="uc-icon text-green" />, link: "/fasal#enquiry" } // Advisory
-    ];
+    // Helper: pick icon based on title keywords for flexibility
+    const getIconForTitle = (title = '') => {
+        const t = title.toLowerCase();
+        if (t.includes('mulch') || t.includes('water')) {
+            return <Droplets size={40} className="uc-icon text-blue" />;
+        }
+        if (t.includes('nursery') || t.includes('microclimate')) {
+            return <Thermometer size={40} className="uc-icon text-orange" />;
+        }
+        if (t.includes('irrigation')) {
+            return <CloudSun size={40} className="uc-icon text-blue" />;
+        }
+        if (t.includes('protected') || t.includes('cultivation')) {
+            return <Leaf size={40} className="uc-icon text-green" />;
+        }
+        if (t.includes('climate')) {
+            return <Sun size={40} className="uc-icon text-red" />;
+        }
+        if (t.includes('disease') || t.includes('pest')) {
+            return <Bug size={40} className="uc-icon text-red" />;
+        }
+        if (t.includes('health')) {
+            return <Activity size={40} className="uc-icon text-orange" />;
+        }
+        // fallback icon
+        return <Maximize size={40} className="uc-icon text-green" />;
+    };
+
+    // Helper: derive partner link from leading partner tag in desc, e.g. (Fasal) or (Agriplast + Fasal)
+    const getLinkForDesc = (desc = '') => {
+        const tag = desc.startsWith('(') ? desc.split('\n')[0] : '';
+        const hasFasal = /Fasal/i.test(tag);
+        const hasAgriplast = /Agriplast/i.test(tag);
+        if (hasFasal && !hasAgriplast) return '/fasal#enquiry';
+        if (hasAgriplast && !hasFasal) return '/agriplast#enquiry';
+        if (hasFasal && hasAgriplast) {
+            // default to contact if both partners; user can choose later
+            return '/contact#enquiry';
+        }
+        return '/contact';
+    };
 
     if (!Array.isArray(useCases)) {
         return <div className="container py-5 text-center">Loading...</div>;
@@ -56,8 +85,9 @@ const UseCases = () => {
             <div className="container py-5">
                 <div className="use-cases-grid">
                     {useCases.map((useCase, index) => {
-                        const config = useCaseConfig[index] || { icon: <Leaf />, link: "/contact" };
                         const desc = useCase.desc || "";
+                        const icon = getIconForTitle(useCase.title);
+                        const link = getLinkForDesc(desc);
 
                         return (
                             <motion.div
@@ -69,7 +99,7 @@ const UseCases = () => {
                                 transition={{ delay: index * 0.1 }}
                             >
                                 <div className="card-icon">
-                                    {config.icon}
+                                    {icon}
                                 </div>
                                 <div className="card-content">
                                     <h3>{useCase.title}</h3>
@@ -83,10 +113,9 @@ const UseCases = () => {
                                     ) : (
                                         <p>{desc}</p>
                                     )}
-                                    {/* Using standard Link with hash */}
-                                    <a href={config.link} className="learn-more-link">
+                                    <Link to={link} className="learn-more-link">
                                         Enquire Now <ArrowRight size={16} />
-                                    </a>
+                                    </Link>
                                 </div>
                             </motion.div>
                         );
