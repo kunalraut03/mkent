@@ -29,14 +29,6 @@ function App() {
       theme: "dark",
       color: "#f59e0b",
       products: t('partners.fasal.products', { returnObjects: true })
-    },
-    mapmycrop: {
-      title: "Map My Crop",
-      description: t('partners.mapmycrop.description'),
-      features: t('partners.mapmycrop.features', { returnObjects: true }),
-      theme: "dark",
-      color: "#2563eb",
-      products: t('partners.mapmycrop.products', { returnObjects: true })
     }
   };
 
@@ -50,7 +42,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/agriplast" element={<PartnerPage {...partners.agriplast} />} />
             <Route path="/fasal" element={<PartnerPage {...partners.fasal} />} />
-            <Route path="/map-my-crop" element={<PartnerPage {...partners.mapmycrop} />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/use-cases" element={<UseCases />} />
             <Route path="/faq" element={<FAQ />} />

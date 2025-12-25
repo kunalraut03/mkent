@@ -14,7 +14,7 @@ const resources = {
             "hero": {
                 "empowering": "Empowering Agriculture with",
                 "solutions": "Solutions",
-                "trustedPartner": "Your trusted partner for Agriplast, Fasal, and Map My Crop. Delivering sustainable solutions for modern farming.",
+                "trustedPartner": "Your trusted partner for Agriplast and Fasal. Delivering sustainable solutions for modern farming.",
                 "getStarted": "Get Started",
                 "ourPartners": "Our Partners",
                 "words": {
@@ -27,7 +27,7 @@ const resources = {
                 }
             },
             "footer": {
-                "reliableStockist": "Reliable stockist for Agriplast, Fasal, and Map My Crop. Delivering premium agricultural solutions to empower farmers and businesses.",
+                "reliableStockist": "Reliable stockist for Agriplast and Fasal. Delivering premium agricultural solutions to empower farmers and businesses.",
                 "quickLinks": "Quick Links",
                 "contactUs": "Contact Us",
                 "visitUs": "Visit Us",
@@ -37,7 +37,7 @@ const resources = {
             },
             "contact": {
                 "getInTouch": "Get in Touch",
-                "subText": "We'd love to hear from you. Reach out for any inquiries about Agriplast, Fasal, or Map My Crop.",
+                "subText": "We'd love to hear from you. Reach out for any inquiries about Agriplast or Fasal.",
                 "infoTitle": "Contact Information",
                 "businessHours": "Business Hours",
                 "monSat": "Mon - Sat: 10:00 AM - 6:00 PM",
@@ -87,13 +87,10 @@ const resources = {
                 "applications": [
                     { "title": "Mulching-Led Water Optimization", "desc": "(Agriplast + Fasal)\nUse UV-stabilized mulching films to reduce evaporation, combined with sensor-based irrigation alerts to apply water only when crops actually need it. Ideal for vegetables and horticulture crops." },
                     { "title": "Nursery & Sapling Microclimate Control", "desc": "(Agriplast + Fasal)\nShade nets regulate light and temperature, while on-field climate sensors monitor humidity and heat stress, ensuring uniform sapling growth in nurseries and polyhouses." },
-                    { "title": "Large-Acreage Satellite Crop Monitoring", "desc": "(MapMyCrop)\nMonitor crop health, growth stages, and stress across large farms using satellite imagery, enabling early detection of issues without manual field scouting." },
-                    { "title": "Pest & Disease Risk Forecasting", "desc": "(Fasal + MapMyCrop)\nCombine historical weather patterns, real-time microclimate data, and crop stage insights to predict pest and disease risk before visible damage occurs." },
                     { "title": "Smart Irrigation Scheduling", "desc": "(Fasal)\nSoil moisture and weather data generate actionable irrigation alerts, helping farmers avoid over-watering, reduce pumping costs, and maintain optimal root-zone moisture." },
                     { "title": "Protected Cultivation for High-Value Crops", "desc": "(Agriplast)\nInsect nets, shade nets, and crop covers protect crops from pests, excess heat, and wind stress, improving yield consistency in flowers, vegetables, and nurseries." },
-                    { "title": "Crop Health & Stress Detection", "desc": "(MapMyCrop)\nNDVI-based satellite analysis highlights stress zones caused by water deficiency, nutrient imbalance, or disease pressure, enabling targeted field intervention." },
                     { "title": "Climate-Resilient Farming Practices", "desc": "(Agriplast + Fasal)\nUse protective agri-plastics to shield crops from extreme weather, supported by real-time climate alerts that help farmers respond quickly to heatwaves or unseasonal rainfall." },
-                    { "title": "Advisory-Driven Farm Decisions", "desc": "(Fasal + MapMyCrop)\nTranslate raw sensor data and satellite insights into simple advisories, helping farmers decide when to irrigate, when to spray, and when to wait." }
+                    
                 ]
             },
             "enquiry": {
@@ -164,23 +161,6 @@ const resources = {
                         { "title": "Main Unit 5.0", "desc": "IoT device for disease pest prediction and advisory." },
                         { "title": "Soil Moisture Unit 6.0", "desc": "Monitor soil moisture real-time for precise irrigation." }
                     ]
-                },
-                "mapmycrop": {
-                    "description": "Satellite-based crop monitoring and analytics. Gain insights into crop health, acreage, and yield estimation from space.",
-                    "features": [
-                        { "title": "Satellite Imagery", "desc": "High-resolution satellite data for crop monitoring." },
-                        { "title": "Yield Estimation", "desc": "Accurate yield forecasts using remote sensing." },
-                        { "title": "Historical Data", "desc": "Analyze past performance to plan better future cycles." }
-                    ],
-                    "products": [
-                        { "title": "Crop Monitoring Platform", "desc": "Comprehensive platform for satellite-based crop tracking." },
-                        { "title": "Automated Crop Type Detection", "desc": "Identify crop types automatically using satellite data." },
-                        { "title": "Automated Farm Boundary Detection", "desc": "Digitize farm boundaries with high precision." },
-                        { "title": "Tree Monitoring Software", "desc": "Specialized monitoring for orchards and plantations." },
-                        { "title": "Drone Monitoring Software", "desc": "Integration with drone imagery for detailed analysis." },
-                        { "title": "Irrigation Modelling Tool", "desc": "Optimize water usage with advanced modeling." },
-                        { "title": "Sustainable Ag. Monitoring", "desc": "Track and verify sustainable farming practices." }
-                    ]
                 }
             },
             "faq": {
@@ -243,7 +223,7 @@ const resources = {
             "hero": {
                 "empowering": "शेतीला सक्षम करणे",
                 "solutions": "उपाययोजनांसह",
-                "trustedPartner": "ऍग्रीप्लास्ट, फसल आणि मॅप माय क्रॉपसाठी तुमचा विश्वासार्ह भागीदार. आधुनिक शेतीसाठी शाश्वत उपाय वितरीत करणे.",
+                "trustedPartner": "ऍग्रीप्लास्ट आणि फसलसाठी तुमचा विश्वासार्ह भागीदार. आधुनिक शेतीसाठी शाश्वत उपाय वितरीत करणे.",
                 "getStarted": "सुरुवात करा",
                 "ourPartners": "आमचे भागीदार",
                 "words": {
@@ -256,7 +236,7 @@ const resources = {
                 }
             },
             "footer": {
-                "reliableStockist": "ऍग्रीप्लास्ट, फसल आणि मॅप माय क्रॉपचे विश्वसनीय वितरक. शेतकरी आणि व्यवसायांना सक्षम करण्यासाठी प्रीमियम कृषी उपाय वितरीत करणे.",
+                "reliableStockist": "ऍग्रीप्लास्ट आणि फसलचे विश्वसनीय वितरक. शेतकरी आणि व्यवसायांना सक्षम करण्यासाठी प्रीमियम कृषी उपाय वितरीत करणे.",
                 "quickLinks": "महत्वाचे दुवे",
                 "contactUs": "संपर्क साधा",
                 "visitUs": "भेट द्या",
@@ -266,7 +246,7 @@ const resources = {
             },
             "contact": {
                 "getInTouch": "संपर्कात रहा",
-                "subText": "आम्हाला तुमच्याकडून ऐकायला आवडेल. ऍग्रीप्लास्ट, फसल किंवा मॅप माय क्रॉप बद्दल कोणत्याही चौकशीसाठी संपर्क साधा.",
+                "subText": "आम्हाला तुमच्याकडून ऐकायला आवडेल. ऍग्रीप्लास्ट किंवा फसल बद्दल कोणत्याही चौकशीसाठी संपर्क साधा.",
                 "infoTitle": "संपर्क माहिती",
                 "businessHours": "कामाच्या वेळा",
                 "monSat": "सोम - शनि: सकाळी १०:०० - सायंकाळी ६:००",
@@ -316,13 +296,10 @@ const resources = {
                 "applications": [
                     { "title": "मल्चिंग-आधारित पाणी व्यवस्थापन", "desc": "(Agriplast + Fasal)\nबाष्पीभवन कमी करण्यासाठी यूव्ही-स्टॅबिलाईझ्ड मल्चिंग फिल्म्सचा वापर, जोडीला सेन्सर-आधारित सिंचन अलर्ट, जेणेकरून पिकांना जेव्हा खरोखर गरज असेल तेव्हाच पाणी दिले जाईल. भाजीपाला आणि फलोत्पादन पिकांसाठी आदर्श." },
                     { "title": "नर्सरी आणि रोपांचे मायक्रोक्लाइमेट नियंत्रण", "desc": "(Agriplast + Fasal)\nशेड नेट प्रकाश आणि तापमान नियंत्रित करतात, तर शेतावरील हवामान सेन्सर्स आर्द्रता आणि उष्णतेच्या तणावाचे निरीक्षण करतात, ज्यामुळे नर्सरी आणि पॉलीहाऊसमध्ये रोपांची एकसारखी वाढ सुनिश्चित होते." },
-                    { "title": "मोठ्या क्षेत्रावरील पिकांचे उपग्रह निरीक्षण", "desc": "(MapMyCrop)\nउपग्रह इमेजरी वापरून मोठ्या शेतांमध्ये पिकांचे आरोग्य, वाढीचे टप्पे आणि तणावाचे निरीक्षण करा, ज्यामुळे प्रत्यक्ष शेतात न जाता समस्यांचे लवकर निदान करणे शक्य होते." },
-                    { "title": "कीटक आणि रोग जोखीम अंदाज", "desc": "(Fasal + MapMyCrop)\nऐतिहासिक हवामान नमुने, रिअल-टाइम मायक्रोक्लाइमेट डेटा आणि पिकांच्या टप्प्याची माहिती एकत्रित करून, नुकसान दृश्यमान होण्यापूर्वी कीटक आणि रोगाच्या जोखमीचा अंदाज लावा." },
                     { "title": "स्मार्ट सिंचन वेळापत्रक", "desc": "(Fasal)\nमातीची आर्द्रता आणि हवामान डेटावर आधारित सिंचन अलर्ट मिळवा, ज्यामुळे शेतकऱ्यांना अति-पाणी देणे टाळण्यास, पंपिंग खर्च कमी करण्यास आणि मुळांच्या क्षेत्रातील इष्टतम ओलावा राखण्यास मदत होते." },
                     { "title": "उच्च-मूल्य पिकांसाठी संरक्षित शेती", "desc": "(Agriplast)\nकीटक नेट, शेड नेट आणि पीक कव्हर्स पिकांचे कीटक, अति उष्णता आणि वारा यांपासून संरक्षण करतात, ज्यामुळे फुले, भाजीपाला आणि नर्सरीमध्ये उत्पादनाची सातत्य सुधारते." },
-                    { "title": "पीक आरोग्य आणि तणाव डिटेक्शन", "desc": "(MapMyCrop)\nNDVI-आधारित उपग्रह विश्लेषण पाण्याच्या कमतरतेमुळे, पोषक घटकांच्या असंतुलनामुळे किंवा रोगाच्या दबावामुळे तणावग्रस्त क्षेत्र हायलाइट करते, ज्यामुळे लक्ष्यित उपाययोजना करणे शक्य होते." },
                     { "title": "हवामान-अनुकूल शेती पद्धती", "desc": "(Agriplast + Fasal)\nअतिवृष्टी किंवा उष्णतेच्या लाटेपासून पिकांचे संरक्षण करण्यासाठी संरक्षणात्मक ॲग्री-प्लास्टिकचा वापर करा, ज्याला रिअल-टाइम हवामान अलर्टचा आधार आहे, ज्यामुळे शेतकऱ्यांना त्वरित प्रतिक्रिया देण्यास मदत होते." },
-                    { "title": "सल्ला-आधारित शेती निर्णय", "desc": "(Fasal + MapMyCrop)\nकच्च्या सेन्सर डेटा आणि उपग्रह अंतर्दृष्टीचे सोप्या सल्ल्यामध्ये रूपांतर करा, ज्यामुळे शेतकऱ्यांना कधी पाणी द्यावे, कधी फवारणी करावी आणि कधी प्रतीक्षा करावी हे ठरवण्यात मदत होईल." }
+                    
                 ]
             },
             "enquiry": {
@@ -393,23 +370,6 @@ const resources = {
                         { "title": "मेन युनिट ५.०", "desc": "रोग आणि कीटक अंदाज आणि सल्ल्यासाठी आयओटी डिव्हाइस." },
                         { "title": "मृदा ओलावा युनिट ६.०", "desc": "अचूक सिंचनासाठी रिअल-टाइम माती ओलावा निरीक्षण." }
                     ]
-                },
-                "mapmycrop": {
-                    "description": "उपग्रह-आधारित पीक निरीक्षण आणि विश्लेषण. अंतराळातून पिकाचे आरोग्य, क्षेत्रफळ आणि उत्पादनाचा अंदाज मिळवा.",
-                    "features": [
-                        { "title": "सॅटेलाईट इमेजरी", "desc": "पीक निरीक्षणासाठी उच्च-रिझोल्यूशन उपग्रह डेटा." },
-                        { "title": "उत्पादन अंदाज", "desc": "रिमोट सेन्सिंग वापरून अचूक उत्पादन अंदाज." },
-                        { "title": "ऐतिहासिक डेटा", "desc": "भविष्यातील चांगल्या नियोजनासाठी मागील कामगिरीचे विश्लेषण करा." }
-                    ],
-                    "products": [
-                        { "title": "पीक निरीक्षण प्लॅटफॉर्म", "desc": "उपग्रह-आधारित पीक ट्रॅकिंगसाठी सर्वसमावेशक प्लॅटफॉर्म." },
-                        { "title": "स्वयंचलित पीक प्रकार ओळख", "desc": "उपग्रह डेटा वापरून पीक प्रकार स्वयंचलितपणे ओळखा." },
-                        { "title": "स्वयंचलित शेत सीमा ओळख", "desc": "अचूकतेने शेताच्या सीमा डिजिटाइज करा." },
-                        { "title": "झाड निरीक्षण सॉफ्टवेअर", "desc": "बागा आणि लागवडीसाठी विशेष निरीक्षण." },
-                        { "title": "ड्रोन निरीक्षण सॉफ्टवेअर", "desc": "तपशीलवार विश्लेषणासाठी ड्रोन इमेजरीसह एकत्रीकरण." },
-                        { "title": "सिंचन मॉडेलिंग टूल", "desc": "प्रगत मॉडेलिंगसह पाण्याचा वापर इष्टतम करा." },
-                        { "title": "शाश्वत कृषी निरीक्षण", "desc": "शाश्वत शेती पद्धतींचा मागोवा घ्या आणि पडताळणी करा." }
-                    ]
                 }
             },
             "faq": {
@@ -472,7 +432,7 @@ const resources = {
             "hero": {
                 "empowering": "कृषि को सशक्त बनाना",
                 "solutions": "समाधानों के साथ",
-                "trustedPartner": "एग्रीप्लास्ट, फसल और मैप माई क्रॉप के लिए आपका विश्वसनीय भागीदार। आधुनिक खेती के लिए स्थायी समाधान प्रदान करना।",
+                "trustedPartner": "एग्रीप्लास्ट और फसल के लिए आपका विश्वसनीय भागीदार। आधुनिक खेती के लिए स्थायी समाधान प्रदान करना।",
                 "getStarted": "शुरू करें",
                 "ourPartners": "हमारे भागीदार",
                 "words": {
@@ -485,7 +445,7 @@ const resources = {
                 }
             },
             "footer": {
-                "reliableStockist": "एग्रीप्लास्ट, फसल और मैप माई क्रॉप के विश्वसनीय स्टॉकिस्ट। किसानों और व्यवसायों को सशक्त बनाने के लिए प्रीमियम कृषि समाधान प्रदान करना।",
+                "reliableStockist": "एग्रीप्लास्ट और फसल के विश्वसनीय स्टॉकिस्ट। किसानों और व्यवसायों को सशक्त बनाने के लिए प्रीमियम कृषि समाधान प्रदान करना।",
                 "quickLinks": "त्वरित लिंक",
                 "contactUs": "संपर्क करें",
                 "visitUs": "हमसे मिलें",
@@ -495,7 +455,7 @@ const resources = {
             },
             "contact": {
                 "getInTouch": "संपर्क में रहें",
-                "subText": "हमें आपसे सुनना अच्छा लगेगा। एग्रीप्लास्ट, फसल या मैप माई क्रॉप के बारे में किसी भी पूछताछ के लिए संपर्क करें।",
+                "subText": "हमें आपसे सुनना अच्छा लगेगा। एग्रीप्लास्ट या फसल के बारे में किसी भी पूछताछ के लिए संपर्क करें।",
                 "infoTitle": "संपर्क जानकारी",
                 "businessHours": "कार्य समय",
                 "monSat": "सोम - शनि: सुबह 10:00 - शाम 6:00",
@@ -545,13 +505,10 @@ const resources = {
                 "applications": [
                     { "title": "मल्चिंग-आधारित जल अनुकूलन", "desc": "(Agriplast + Fasal)\nवाष्पीकरण को कम करने के लिए यूवी-स्थिर मल्चिंग फिल्मों का उपयोग करें, साथ ही सेंसर-आधारित सिंचाई अलर्ट ताकि पानी केवल तभी दिया जाए जब फसलों को वास्तव में इसकी आवश्यकता हो। सब्जियों और बागवानी फसलों के लिए आदर्श।" },
                     { "title": "नर्सरी और पौधों का माइक्रोक्लाइमेट नियंत्रण", "desc": "(Agriplast + Fasal)\nशेड नेट प्रकाश और तापमान को नियंत्रित करते हैं, जबकि खेत पर जलवायु सेंसर नमी और गर्मी के तनाव की निगरानी करते हैं, जिससे नर्सरी और पॉलीहाउस में एक समान पौधों की वृद्धि सुनिश्चित होती है।" },
-                    { "title": "बड़े रकबे वाली फसल की उपग्रह निगरानी", "desc": "(MapMyCrop)\nउपग्रह इमेजरी का उपयोग करके बड़े खेतों में फसल के स्वास्थ्य, विकास के चरणों और तनाव की निगरानी करें, जिससे मैन्युअल फील्ड स्काउटिंग के बिना मुद्दों का जल्द पता लगाया जा सके।" },
-                    { "title": "कीट और रोग जोखिम पूर्वानुमान", "desc": "(Fasal + MapMyCrop)\nऐतिहासिक मौसम पैटर्न, वास्तविक समय के माइक्रोक्लाइमेट डेटा और फसल चरण की जानकारी को मिलाकर कीट और रोग के जोखिम का पूर्वानुमान लगाएं, इससे पहले कि कोई दृश्य क्षति हो।" },
                     { "title": "स्मार्ट सिंचाई शेड्यूलिंग", "desc": "(Fasal)\nमिट्टी की नमी और मौसम का डेटा कार्रवाई योग्य सिंचाई अलर्ट उत्पन्न करता है, जिससे किसानों को अधिक पानी देने से बचने, पम्पिंग लागत कम करने और इष्टतम रूट-ज़ोन नमी बनाए रखने में मदद मिलती है।" },
                     { "title": "उच्च मूल्य वाली फसलों के लिए संरक्षित खेती", "desc": "(Agriplast)\nकीट नेट, शेड नेट और फसल कवर फसलों को कीटों, अतिरिक्त गर्मी और हवा के तनाव से बचाते हैं, जिससे फूलों, सब्जियों और नर्सरी में उपज की स्थिरता में सुधार होता है।" },
-                    { "title": "फसल स्वास्थ्य और तनाव का पता लगाना", "desc": "(MapMyCrop)\nNDVI-आधारित उपग्रह विश्लेषण पानी की कमी, पोषक तत्वों के असंतुलन या बीमारी के दबाव के कारण तनाव वाले क्षेत्रों को उजागर करता है, जिससे लक्षित क्षेत्र हस्तक्षेप सक्षम होता है।" },
                     { "title": " जलवायु-लचीली खेती के तरीके", "desc": "(Agriplast + Fasal)\nफसलों को चरम मौसम से बचाने के लिए सुरक्षात्मक एग्री-प्लास्टिक का उपयोग करें, जो वास्तविक समय के जलवायु अलर्ट द्वारा समर्थित है जो किसानों को गर्मी की लहरों या बेमौसम बारिश पर जल्दी प्रतिक्रिया करने में मदद करता है।" },
-                    { "title": "सलाहकार-संचालित कृषि निर्णय", "desc": "(Fasal + MapMyCrop)\nकच्चे सेंसर डेटा और उपग्रह अंतर्दृष्टि को सरल सलाह में बदलें, जिससे किसानों को यह तय करने में मदद मिले कि कब सिंचाई करनी है, कब छिड़काव करना है और कब प्रतीक्षा करनी है।" }
+                    
                 ]
             },
             "enquiry": {
@@ -621,23 +578,6 @@ const resources = {
                         { "title": "फसल जेट", "desc": "सिंचाई और फर्टिगेशन स्वचालन - सटीक पोषक तत्व वितरण।" },
                         { "title": "मुख्य इकाई 5.0", "desc": "रोग और कीट भविष्यवाणी और सलाह के लिए आईओटी उपकरण।" },
                         { "title": "मृदा नमी इकाई 6.0", "desc": "सटीक सिंचाई के लिए वास्तविक समय में मिट्टी की नमी की निगरानी करें।" }
-                    ]
-                },
-                "mapmycrop": {
-                    "description": "उपग्रह-आधारित फसल निगरानी और विश्लेषण। अंतरिक्ष से फसल स्वास्थ्य, रकबा और उपज अनुमान में अंतर्दृष्टि प्राप्त करें।",
-                    "features": [
-                        { "title": "सैटेलाइट इमेजरी", "desc": "फसल निगरानी के लिए उच्च-रिज़ॉल्यूशन उपग्रह डेटा।" },
-                        { "title": "उपज अनुमान", "desc": "रिमोट सेंसिंग का उपयोग करके सटीक उपज पूर्वानुमान।" },
-                        { "title": "ऐतिहासिक डेटा", "desc": "भविष्यातील चांगल्या नियोजनासाठी मागील कामगिरीचे विश्लेषण करा." }
-                    ],
-                    "products": [
-                        { "title": "फसल निगरानी मंच", "desc": "उपग्रह-आधारित फसल ट्रैकिंग के लिए व्यापक मंच।" },
-                        { "title": "स्वचालित फसल प्रकार जांच", "desc": "उपग्रह डेटा का उपयोग करके स्वचालित रूप से फसल के प्रकारों की पहचान करें।" },
-                        { "title": "स्वचालित खेत सीमा जांच", "desc": "उच्च सटीकता के साथ खेत की सीमाओं को डिजिटाइज़ करें।" },
-                        { "title": "वृक्ष निगरानी सॉफ्टवेयर", "desc": "बागों और वृक्षारोपण के लिए विशेष निगरानी।" },
-                        { "title": "ड्रोन निगरानी सॉफ्टवेयर", "desc": "विस्तृत विश्लेषण के लिए ड्रोन इमेजरी के साथ एकीकरण।" },
-                        { "title": "सिंचाई मॉडलिंग उपकरण", "desc": "उन्नत मॉडलिंग के साथ पानी के उपयोग को अनुकूलित करें।" },
-                        { "title": "टिकाऊ कृषि निगरानी", "desc": "टिकाऊ खेती प्रथाओं को ट्रैक और सत्यापित करें।" }
                     ]
                 }
             },

@@ -27,7 +27,6 @@ const Footer = () => {
                         <li><Link to="/" onClick={() => window.scrollTo(0, 0)}>{t('nav.home')}</Link></li>
                         <li><Link to="/agriplast" onClick={() => window.scrollTo(0, 0)}>Agriplast</Link></li>
                         <li><Link to="/fasal" onClick={() => window.scrollTo(0, 0)}>Fasal</Link></li>
-                        <li><Link to="/map-my-crop" onClick={() => window.scrollTo(0, 0)}>Map My Crop</Link></li>
                         <li><Link to="/contact" onClick={() => window.scrollTo(0, 0)}>{t('nav.contact')}</Link></li>
                         <li><Link to="/faq" onClick={() => window.scrollTo(0, 0)}>FAQ</Link></li>
                     </ul>

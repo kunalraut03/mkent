@@ -10,10 +10,10 @@ const Home = () => {
     const { t } = useTranslation();
 
     const solutions = [
-        { icon: <Brain size={32} color="#3b82f6" />, title: t('home.whatWeEnable.intelligence'), link: "/map-my-crop" },
+        { icon: <Brain size={32} color="#3b82f6" />, title: t('home.whatWeEnable.intelligence'), link: "/fasal" },
         { icon: <Droplets size={32} color="#ef4444" />, title: t('home.whatWeEnable.decisions'), link: "/fasal" },
         { icon: <Shield size={32} color="#16a34a" />, title: t('home.whatWeEnable.protection'), link: "/agriplast" },
-        { icon: <TrendingUp size={32} color="#f59e0b" />, title: t('home.whatWeEnable.yield'), link: "/map-my-crop" },
+        { icon: <TrendingUp size={32} color="#f59e0b" />, title: t('home.whatWeEnable.yield'), link: "/agriplast" },
         { icon: <CloudRain size={32} color="#6366f1" />, title: t('home.whatWeEnable.climate'), link: "/fasal" },
     ];
 
@@ -129,7 +129,7 @@ const Home = () => {
                     <div className="partners-strip">
                         <a href='https://agriplast.co.in' target="_blank" rel="noopener noreferrer"><span className="partner-logo-text">Agriplast</span></a>
                         <a href='https://fasal.co' target="_blank" rel="noopener noreferrer"><span className="partner-logo-text">Fasal</span></a>
-                        <a href='https://mapmycrop.com' target="_blank" rel="noopener noreferrer"><span className="partner-logo-text">Map My Crop</span></a>
+                        {/* Map My Crop removed */}
                     </div>
                 </div>
             </section>
