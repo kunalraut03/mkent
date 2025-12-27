@@ -9,7 +9,11 @@ const resources = {
                 "home": "Home",
                 "partners": "Partners",
                 "contact": "Contact Us",
-                "useCases": "Use Cases"
+                "useCases": "Use Cases",
+                "gallery": "Gallery"
+            },
+            "gallery": {
+                "subtitle": "Explore our Visual Journey"
             },
             "hero": {
                 "empowering": "Empowering Agriculture with",
@@ -91,7 +95,7 @@ const resources = {
                     { "title": "Protected Cultivation for High-Value Crops", "desc": "(Agriplast)\nInsect nets, shade nets, and crop covers protect crops from pests, excess heat, and wind stress, improving yield consistency in flowers, vegetables, and nurseries." },
                     { "title": "Climate-Resilient Farming Practices", "desc": "(Agriplast + Fasal)\nUse protective agri-plastics to shield crops from extreme weather, supported by real-time climate alerts that help farmers respond quickly to heatwaves or unseasonal rainfall." },
                     { "title": "Disease & Pest Early Warning", "desc": "(Fasal)\nAI-driven disease and pest risk alerts using on-field microclimate and crop-stage data. Helps schedule preventive sprays and avoid yield losses." },
-                    
+
                 ]
             },
             "enquiry": {
@@ -219,7 +223,11 @@ const resources = {
                 "home": "मुख्य पृष्ठ",
                 "partners": "भागीदार",
                 "contact": "संपर्क साधा",
-                "useCases": "उपयोग प्रकरणे"
+                "useCases": "उपयोग प्रकरणे",
+                "gallery": "गॅलरी"
+            },
+            "gallery": {
+                "subtitle": "आमचा दृश्य प्रवास एक्सप्लोर करा"
             },
             "hero": {
                 "empowering": "शेतीला सक्षम करणे",
@@ -301,7 +309,7 @@ const resources = {
                     { "title": "उच्च-मूल्य पिकांसाठी संरक्षित शेती", "desc": "(Agriplast)\nकीटक नेट, शेड नेट आणि पीक कव्हर्स पिकांचे कीटक, अति उष्णता आणि वारा यांपासून संरक्षण करतात, ज्यामुळे फुले, भाजीपाला आणि नर्सरीमध्ये उत्पादनाची सातत्य सुधारते." },
                     { "title": "हवामान-अनुकूल शेती पद्धती", "desc": "(Agriplast + Fasal)\nअतिवृष्टी किंवा उष्णतेच्या लाटेपासून पिकांचे संरक्षण करण्यासाठी संरक्षणात्मक ॲग्री-प्लास्टिकचा वापर करा, ज्याला रिअल-टाइम हवामान अलर्टचा आधार आहे, ज्यामुळे शेतकऱ्यांना त्वरित प्रतिक्रिया देण्यास मदत होते." },
                     { "title": "रोग आणि कीटक पूर्वसूचना", "desc": "(Fasal)\nऑन-फील्ड मायक्रोक्लायमेट आणि पीक अवस्थेच्या डेटावर आधारित एआय-संचालित रोग आणि कीटक जोखीम अलर्ट. प्रतिबंधक फवारणीचे नियोजन करण्यात मदत." },
-                    
+
                 ]
             },
             "enquiry": {
@@ -429,7 +437,11 @@ const resources = {
                 "home": "होम",
                 "partners": "भागीदार",
                 "contact": "संपर्क करें",
-                "useCases": "उपयोग के मामले"
+                "useCases": "उपयोग के मामले",
+                "gallery": "गैलरी"
+            },
+            "gallery": {
+                "subtitle": "हमारी दृश्य यात्रा का अन्वेषण करें"
             },
             "hero": {
                 "empowering": "कृषि को सशक्त बनाना",
@@ -511,7 +523,7 @@ const resources = {
                     { "title": "उच्च मूल्य वाली फसलों के लिए संरक्षित खेती", "desc": "(Agriplast)\nकीट नेट, शेड नेट और फसल कवर फसलों को कीटों, अतिरिक्त गर्मी और हवा के तनाव से बचाते हैं, जिससे फूलों, सब्जियों और नर्सरी में उपज की स्थिरता में सुधार होता है।" },
                     { "title": " जलवायु-लचीली खेती के तरीके", "desc": "(Agriplast + Fasal)\nफसलों को चरम मौसम से बचाने के लिए सुरक्षात्मक एग्री-प्लास्टिक का उपयोग करें, जो वास्तविक समय के जलवायु अलर्ट द्वारा समर्थित है जो किसानों को गर्मी की लहरों या बेमौसम बारिश पर जल्दी प्रतिक्रिया करने में मदद करता है।" },
                     { "title": "रोग और कीट पूर्व चेतावनी", "desc": "(Fasal)\nफील्ड माइक्रोक्लाइमेट और फसल अवस्था डेटा पर आधारित एआई-संचालित रोग और कीट जोखिम अलर्ट। रोकथाम स्प्रे शेड्यूल करने में मदद।" },
-                    
+
                 ]
             },
             "enquiry": {

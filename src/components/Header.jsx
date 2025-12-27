@@ -26,6 +26,7 @@ const Header = () => {
     { name: 'Agriplast', path: '/agriplast' },
     { name: 'Fasal', path: '/fasal' },
     { name: t('nav.useCases'), path: '/use-cases' },
+    { name: t('nav.gallery'), path: '/gallery' },
     { name: t('nav.contact'), path: '/contact' },
   ];
 

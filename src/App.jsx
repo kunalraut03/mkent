@@ -6,6 +6,7 @@ import PartnerPage from './pages/PartnerPage';
 import Contact from './pages/Contact';
 import UseCases from './pages/UseCases';
 import FAQ from './pages/FAQ';
+import Gallery from './pages/Gallery';
 import ScrollToTop from './components/ScrollToTop';
 import { useTranslation } from 'react-i18next';
 import './i18n';
@@ -45,6 +46,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/use-cases" element={<UseCases />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </main>
         <Footer />
